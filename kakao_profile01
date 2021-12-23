@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>카카오톡 프로필</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Jua', sans-serif;
+        }
+        .mypapge {
+            position: relative;
+            width: 480px;
+            height: 800px;
+            color: white;
+            text-align: center;
+            border: 0.5px solid grey;
+            margin: auto;
+        }
+        .pgtop {
+            background-color: lightgray;
+            height: 500px;
+
+            background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fc78edG%2FbtroJ63cESc%2Fd8CfTiSd1kA7yBv9HPimL0%2Fimg.png");
+            background-size:cover;
+            background-position:center;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .top-text {
+            margin: 60px 70px 0px 70px;
+            font-size: 23px;
+        }
+        .pgbottom {
+            height: 300px;
+            color: black;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .icons {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+        }
+        .icon01 {
+            margin: 0px 20px -10px 20px;
+            width: 100px;
+            height: 100px;
+        }
+        .icon02 {
+            margin: 0px 20px -10px 20px;
+            width: 100px;
+            height: 100px;
+        }
+        .icon03 {
+            margin: 0px 20px -10px 20px;
+            width: 100px;
+            height: 100px;
+
+        }
+        .pgmiddle {
+            position: absolute;
+            margin-top: 570px;
+            box-shadow: grey;
+        }
+        .pgmiddle > p{
+            color: black;
+            font-size: xx-large;
+            margin-top: -1px;
+        }
+        .lion{
+            border-radius: 60px;
+            width: 120px;
+            height: 120px;
+        }
+    </style>
+</head>
+<body>
+<div class="mypapge">
+    <div class="pgtop">
+        <p class="top-text">안녕하세요. 저는 라이언 이에오!!! 저는 사우디에서 온 부자예요!!!! 여행가는걸 좋아합니다</p>
+        <div class="pgmiddle">
+            <img class="lion" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FCygtR%2FbtroJCac5l7%2FrJkUzWKkAO9BnxfLKNkvvk%2Fimg.png" title="나와의 채팅">
+            <p>라이언</p>
+        </div>
+
+    </div>
+    <div class="pgbottom">
+        <div class="icons">
+            <div>
+                <img class="icon01" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb13o82%2FbtroJB3quGo%2FR7GOHLUt9ktKU7TBcXlFtK%2Fimg.png" title="나와의 채팅">
+                <p>나와의채팅</p>
+            </div>
+            <div>
+                <img class="icon02" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fc0Codk%2FbtroDqCygiQ%2F5nYtpLAsd4Ylcz1QOXwHAk%2Fimg.png" title="프로필관리" >
+                <p>프로필관리</p>
+            </div>
+            <div>
+                <img class="icon03" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcWyCyN%2FbtroIC9zSd9%2FpZaDBIy65dK76GP59Y1uu0%2Fimg.png" title="카카오스토리" >
+                <p>카카오스토리</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
